@@ -22,7 +22,7 @@ public class Ejercicio9 {
 		
 		//mostramos el array
 		muestraArray(num);
-		
+		 
 		
 	}
 
