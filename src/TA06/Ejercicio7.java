@@ -1,3 +1,4 @@
+package TA06;
 import java.util.Scanner;
 
 

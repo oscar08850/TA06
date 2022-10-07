@@ -1,4 +1,4 @@
-import javax.swing.JOptionPane;
+package TA06;
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;

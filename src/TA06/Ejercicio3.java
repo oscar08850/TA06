@@ -1,3 +1,4 @@
+package TA06;
 import javax.swing.JOptionPane;
 
 public class Ejercicio3 {

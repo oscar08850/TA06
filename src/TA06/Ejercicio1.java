@@ -1,3 +1,4 @@
+package TA06;
 import javax.swing.JOptionPane;
 
 //Calcula el área de un circulo, cuadrado o triangulo.
