@@ -10,7 +10,7 @@ public class Ejercicio9 {
 		//Primero pedimos cuantos números querrá el usuario.
 		
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Cuántos posiciones tendrá el array? ");
+		System.out.print("Cuántos posiciones tendrá el array? ");
 		int posiciones = scanner.nextInt();
 		scanner.close();
 		

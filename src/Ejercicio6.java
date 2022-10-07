@@ -4,17 +4,26 @@ public class Ejercicio6 {
 
 	public static void main(String[] args) {
 
-		int numero = Integer
-				.parseInt(JOptionPane.showInputDialog("Introduce un número para ver cuantas cifras tiene: "));
-		JOptionPane.showMessageDialog(null, "El número: " + numero + " en binario es: " + dameCifras(numero));
+		String numeroString = JOptionPane.showInputDialog("Introduzca un número:");
 
+
+		if (Integer.parseInt(numeroString) > 1) {
+			JOptionPane.showMessageDialog(null, "El número " + numeroString + " tiene " + dameCifras(numeroString) + " cifras.");
+
+		} else {
+			JOptionPane.showMessageDialog(null, numeroString + " no es un input válido.");
+		}
 	}
 
-	private static int dameCifras(int numero) {
-		
-		//Falta hacerlo
+	public static int dameCifras(String numero) {
 
-		return 3;
+		try {
+			int cifra = numero.length();
+			return cifra;
+		} catch (Exception e) {
+			return -1;
+		}
+
 	}
 
 }
